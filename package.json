@@ -1,0 +1,31 @@
+{
+  "name": "z-cli",
+  "version": "1.0.0",
+  "description": "通用脚手架",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "bin": {
+    "z-cli": "lib/cli.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "yeoman-environment": "^3.4.0",
+    "yeoman-generator": "^5.2.0",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix"
+  }
+}
