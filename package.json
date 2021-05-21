@@ -14,18 +14,21 @@
   "dependencies": {
     "chalk": "^4.1.1",
     "commander": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
     "yeoman-environment": "^3.4.0",
     "yeoman-generator": "^5.2.0",
     "yosay": "^2.0.2"
   },
   "devDependencies": {
+    "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.2",
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.0"
   },
   "lint-staged": {
-    "*.js": "eslint --fix"
+    "*.js": "eslint --no-eslintrc -c=.eslintrc.js --fix"
   }
 }
