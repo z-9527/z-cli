@@ -1,1 +1,2 @@
+# --no-eslintrc -c=.eslintrc.js 主要是忽略模板文件中的eslintrc配置
 templates/*

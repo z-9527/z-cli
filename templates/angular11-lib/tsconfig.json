@@ -11,8 +11,8 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
-      "my-lib": [
-        "projects/my-lib/src/public-api"
+      "<%= name %>": [
+        "projects/<%= name %>/src/public-api"
       ]
     },
     "target": "es2015",

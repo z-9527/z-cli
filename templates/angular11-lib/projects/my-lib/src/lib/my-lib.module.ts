@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { MyLibComponent } from './my-lib.component';
+import { MyLibComponent } from './<%= name %>.component';
 
 @NgModule({
   declarations: [MyLibComponent],

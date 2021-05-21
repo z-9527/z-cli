@@ -1,7 +1,7 @@
 /*
- * Public API Surface of my-lib
+ * Public API Surface of <%= name %>
  */
 
-export * from './lib/my-lib.service';
-export * from './lib/my-lib.component';
-export * from './lib/my-lib.module';
+export * from './lib/<%= name %>.service';
+export * from './lib/<%= name %>.component';
+export * from './lib/<%= name %>.module';

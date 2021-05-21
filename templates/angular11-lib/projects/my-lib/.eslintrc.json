@@ -6,8 +6,8 @@
       "files": ["*.ts"],
       "parserOptions": {
         "project": [
-          "projects/my-lib/tsconfig.lib.json",
-          "projects/my-lib/tsconfig.spec.json"
+          "projects/<%= name %>/tsconfig.lib.json",
+          "projects/<%= name %>/tsconfig.spec.json"
         ],
         "createDefaultProgram": true,
         "sourceType": "module"
