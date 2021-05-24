@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   template: ` <p><%= name %> works!</p> `,
   styles: [],
 })
-export class MyLibComponent implements OnInit {
+export class <%= moduleName %>Component implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}

@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
-import { MyLibComponent } from './<%= name %>.component';
+import { <%= moduleName %>Component } from './<%= name %>.component';
 
 @NgModule({
-  declarations: [MyLibComponent],
+  declarations: [<%= moduleName %>Component],
   imports: [],
-  exports: [MyLibComponent],
+  exports: [<%= moduleName %>Component],
 })
-export class MyLibModule {}
+export class <%= moduleName %>Module {}
